@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jomiah Creations</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="css/skippr.css"> -->
+
+
+        <script src="mail.js"></script>
+
+    <!-- Email js link  -->
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("Qnp4-mEJqwS6BQU-G");
+   })();
+</script>
+
+    <!-- ======end==== --> 
+<!-- ===== slider link ======= -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+
+  </head>
+  <body>
+    <!-- Headig Section -->
+    <header>
+      <a href="#home" class="logo">
+        <img src="./images/jomiahLogo.png" alt="" class="company-logo" />
+      </a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <ul class="navlinks">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <!-- <li class="nav-login"><a href="#" id="login">Login</a></li> -->
+        </ul>
+      </nav>
+    </header>
+
+    <section class="modal" id="modal">
+      <section class="register" id="register-details">
+        <div class="closebtn" id="closeRegModal" title="Close"><p>X</p></div>
+        <form action="">
+          <div class="register-header"><h1>JomiahCreations</h1></div>
+          <label for="Fname" class="fname">First Name</label>
+          <div class="firstName-input">
+            <input type="text" id="fname" />
+          </div>
+          <label for="lname" class="lname">Last Name</label>
+          <div class="LastName-input">
+            <input type="text" id="lname" />
+          </div>
+          <label for="regEmail" class="regEmail">Email</label>
+          <div class="regEmail-input">
+            <input type="email" id="regEmail" />
+          </div>
+          <label for="regPassword" class="regPassword">Password</label>
+          <div class="regPassword-input">
+            <input type="text" id="regPassword" />
+          </div>
+          <div class="regbtn">
+            <button type="button" class="btn" id="register-submit-btn">
+              Submit
+            </button>
+          </div>
+          <div class="login-link">
+            <span>Already a user? click </span>
+            <a href="#" id="login-link">Login</a>
+          </div>
+        </form>
+      </section>
+
+      <section class="login" id="login-details">
+        <div class="closebtn" id="closeloginModal" title="Close"><p>X</p></div>
+        <form action="">
+          <div class="minClosebtn" id="miniClosebtn"><p></p></div>
+          <div class="login-header"><h1>JomiahCreations</h1></div>
+          <label for="email">Enter your Email</label>
+
+          <div class="email-input">
+            <input type="pemail" id="lemail" class="lemail" name="memail"/>
+          </div>
+          <label for="password">Enter your Password</label>
+          <div class="pass-input">
+            <input type="text" id="logpassword" class="password" />
+          </div>
+          <div class="login-btn">
+            <button type="submit" class="btn" id="login-submit-btn">
+              Submit
+            </button>
+          </div>
+
+          <div class="register-link">
+            <span>Not a user? </span>
+            <a href="#" id="register-link">Register Now</a>
+          </div>
+        </form>
+      </section>
+    </section>
+
+
+    <section class="home" id="home">
+      <div class="home-text">
+        <h1 class="main_header">Jomiah<span class="span-text">Creations</span></h1>
+        <h1 class="mobile_header">Jomiah <br>
+          <span class="span-text">Creations</span>
+        </h1>
+        <p>
+          “Creativity and innovation are about finding unexpected <br> solutions to obvious problems, or finding obvious solutions to unexpected problems.” <br> – Rei Inamoto
+
+        </p>
+
+        <div>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me section -->
+
+    <section class="about" id="about">
+      <div class="about-container">
+        <div class="about-text">
+          <h1 class="heading abt-header">
+            About <span class="span-text">Us</span>
+          </h1>
+          <div>
+            <h3>
+              Jomiah Creations Limited, is a leading diversified international
+            media enterprise with Six (6) business segments:
+            </h3>
+
+             <br>
+            <ol class="business-list-segment">
+              <li><div>
+                   <h4>Media
+                    Consultancy Services</h4>
+              </div></li>
+              <li>
+                <h4>
+                    Broadcasting/Broadcast Installations
+                </h4>
+              </li>
+              <li>
+
+             <h4> Events Production</h4>
+              </li>
+              <li>
+                <h4> Independent Radio and TV Content Productions 
+                </h4>
+              </li>
+              <li>
+                <h4>
+                    Branding and Printing
+                </h4>
+              </li>
+              <li>
+                <h4>
+                  DVD/CD Authoring and Replication
+                </h4>
+              </li>
+              
+            </ol class="business-list-segment">
+            <h3>
+                We have over the years, carved a niche for  ourselves in the Media Industry with numerous projects to our credit.
+              </h3>
+          </div>
+          <!-- <button class="btn">Read more</button> -->
+        </div>
+        <!-- <div class="about-img">
+          <div class="ceo-contianer">
+          <img src="./images/ceo.png" alt="" class="ceo">
+          </div>
+          <img src="./images/blob1.svg" alt="" />
+          <div class="ceo-text">
+            <h3>CEO</h3>
+          <span>Amedu Jeremiah Abah</span> <br>
+          <span>JomiahCreations</span>
+
+          </div>
+        </div> -->
+      </div>
+
+    </section>
+
+    <!-- Service section -->
+
+    <section class="services" id="services">
+      <div class="heading">
+        <h2>Our <span class="span-text">Services</span></h2>
+      </div>
+      <div class="service-contianer">
+        <div class="service-box">
+          <div class="icons">
+            <!-- <i class='bx bx-tv icon'></i> -->
+            <i class='bx bx-news icon'></i>
+          </div>
+          <h3>Media Consultancy Services</h3>
+          <p>
+          <ul>
+                   <li>TV and Radio Documentaries</li>
+                      <li>Audio and
+                    Video Advertising </li>
+                    <li>Still Photography</li>
+                    </ul>
+          </p>
+        </div>
+        <div class="service-box">
+          <div class="icons">
+            <i class='bx bx-broadcast icon'></i>
+          </div>
+          <h3>Broadcasting/Broadcast Installations</h3>
+          <p>
+            <ul>
+              <li>FM/TV Broadcast Equipment Supplies and installations</li>
+              <li>Broadcast/Telecom Power Sales and Installations</li>
+              <li>Radio and TV Content Creation</li>
+            </ul>
+          </p>
+          
+        </div>
+        <div class="service-box">
+          <div class="icons">
+            <i class='bx bxs-video icon'></i>
+          </div>
+          <h3>Events Production</h3>
+          <p>
+             <ul>
+              <li>Video Filming/Still Photography</li>
+              <li>Sound/P.A. Systems/Livestreaming</li>
+              <li>Lights/Multimedia Screens</li>
+             </ul>
+          </p>
+        </div>
+
+        <div class="service-box">
+          <div class="icons">
+            <i class='bx bxs-printer icon'></i>
+          </div>
+          <h3>Branding and Printing</h3>
+          <ul>
+          <li>Stage backdrop/ Skirting</li>
+          <li>Exhibition Stands</li>
+          <li>Roll-up Banners</li>
+          </ul>
+        </div>
+        <div class="service-box">
+          <div class="icons">
+            <i class='bx bxs-disc icon'></i>
+          </div>
+          <h3>DVD/CD Authoring and Replication </h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Design -->
+
+    
+    <section class="project" id="project">
+      <div class="header">
+        <h2 class="heading project-header">
+          Projects
+        </h2>
+        <!-- <img src="/images/images.jpeg" alt="" class="imgs"> -->
+      </div>
+      <!-- <div class="slider">
+                  <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30" centered-slides="true" autoplay-delay="4500" autoplay-disable-on-interaction="false">
+        <div class="swiper-slide">
+            <div class="projectinfo"><h1>Customized FM Studio Set-up_7FM <br> <span class="span-text">
+              Onitsha
+            </span></h1></div>
+            <img src="./images/studio_setup.jpeg" alt=""> 
+          </div>
+          <div class="swiper-slide">
+            <div class="projectinfo"><h1>STAGE <br> <span class="span-text">
+              BRANDING AND PRINTING
+            </span></h1></div>
+            <img src="./images/brand_pic.jpeg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <div class="projectinfo"><h1>STAGE <br> <span class="span-text">
+              BRANDING AND PRINTING
+            </span> </h1></div>
+            <img src="./images/20220818_121442.jpeg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <div class="projectinfo"><h1>Broadcast Tower Installation_Enyimba FM, <br> <span class="span-text">
+              Aba
+            </span></h1></div>
+            <img src="./images/eyimba-mast.jpeg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <div class="projectinfo"><h1>Tower Installation_Sunshine FM, <br> <span class="span-text">
+              Adamawa
+            </span></h1></div>
+            <img src="./images/mast-installation.jpeg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <div class="projectinfo"><h1>NBC Inspection at Jalla Radio, <br> <span class="span-text">
+              Kano
+            </span></h1></div>
+            <img src="./images/NBC-Kano1.jpeg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <div class="projectinfo"><h1>Jalla Radio, <br> <span class="span-text">
+              Kano
+            </span></h1></div>
+            <img src="./images/Jalla-Radio-Kano1.jpeg" alt="">
+          </div>
+  </swiper-container>
+      
+      </div> -->
+
+
+  <div class="slider-container">
+    <div class="slider">
+      <div class="slide"><img src="../webapp/images/Jalla-Radio-Kano1.jpeg" alt="Slide 2"></div>
+      <div class="slide"><img src="../webapp/images/eyimba-mast.jpeg" alt="Slide 3"></div>
+      <div class="slide"><img src="../webapp/images/events_pic.jpeg" alt="Slide 4"></div>
+      <div class="slide"><img src="../webapp/images/NBC-Kano1.jpeg" alt="Slide 6"></div>
+      <!-- <div class="slide"><img src="../webapp/images/mast2.jpeg" alt="Slide 8"></div> -->
+      <div class="slide"><img src="../webapp/images/News-Room-Himma-Radio.jpeg" alt="Slide 9"></div>
+      <div class="slide"><img src="../webapp/images/studio_setup.jpeg" alt="Slide 10"></div>
+      <div class="slide"><img src="../webapp/images/news-room-kano.jpeg" alt="Slide 11"></div>
+      <div class="slide"><img src="../webapp/images/brand_pic.jpeg" alt="Slide 14"></div>
+    </div>
+    <div class="controls">
+      <button id="prev">Previous</button>
+      <button id="next">Next</button>
+    </div>
+  </div>
+  <script src="slider.js"></script>
+
+
+
+    </section>
+
+    <section class="contact" id="contact">
+          
+      <div class="heading">
+        <h1>Contact <span class="span-text">Us</span></h1>
+        <div class="contact-container">
+    <section id="successMessage" class="successMessage">
+    <div class="thanks">
+        <div class="thanksImage">
+          <img src="./images/checker.png" alt="">
+        </div>
+        <h1> EMAIL SENT SUCCESSFULLY<br> THANK YOU!!</h1>
+        <div>
+          <button class="Successbtn" id="okBtn" onclick="succesful()">Ok</button>
+        </div>
+    </div>
+    </section>
+          <form action="#">
+            <div class="input-box">
+              <input
+                type="text"
+                class="input-field"
+                placeholder="Full Name"
+                id="name"
+              />
+              <input
+                type="email"
+                class="input-field"
+                placeholder="Email"
+                id="email"
+              />
+            </div>
+
+            <div class="input-box">
+              <input
+                type="number"
+                class="input-field"
+                placeholder="Phone Number"
+                id="phone"
+              />
+            </div>
+
+            <textarea name="message" id="message" cols="15" rows="7"></textarea>
+
+            <div class="btn contact-form-btn" type="submit" id="successContact" onclick="sendMail()">
+              <p>Send Message</p>
+            </div>
+          </form>
+
+          <!-- <div class="alt-contact">
+            <p>Our Social media platforms</p>
+            <div class="social-icons">
+              <i class='bx bxl-instagram'></i>
+              <i class='bx bxl-whatsapp' ></i>
+              <i class='bx bxl-facebook' ></i>
+              <i class='bx bxl-twitter'></i>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <p class="footer-text">
+
+        <span class="address">Address: </span> Suite C009, Quad Plaza. <br> Ameh Ebute Street, Wuye - Abuja, Nigeria.
+        <br>
+        <span>
+        CopyRight &copy; 2023 designed by Eletech | All Rights Reserved.
+        </span>
+      </p>
+
+      <button class="btn main-btn"><a href="#home">Back to top</a></button>
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script src="index.js"></script>
+    <script src="mail.js"></script>
+    <script src="slider.js"></script>
+  </body>
+</html>
